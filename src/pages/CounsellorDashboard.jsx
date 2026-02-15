@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useAuth } from "@/context/AuthContext";
 import { Button } from "@/components/ui/button";
-import { db } from "@/lib/db";
+import { db } from "@/lib/mysql-db";
 import {
   Users,
   AlertTriangle,

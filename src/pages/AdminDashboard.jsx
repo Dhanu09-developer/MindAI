@@ -1,4 +1,4 @@
-import React from "react";
+import { db } from "@/lib/mysql-db";
 import { useAuth } from "@/context/AuthContext";
 import { Button } from "@/components/ui/button";
 import { Activity, ShieldCheck, Database, Server } from "lucide-react";

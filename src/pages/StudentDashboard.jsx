@@ -12,7 +12,7 @@ import {
   Zap,
   AlertTriangle,
 } from "lucide-react";
-import { db } from "@/lib/db";
+import { db } from "@/lib/mysql-db";
 import { useAuth } from "@/context/AuthContext";
 import { useToast } from "@/components/ui/use-toast";
 import { useOffline } from "@/hooks/useOffline";
